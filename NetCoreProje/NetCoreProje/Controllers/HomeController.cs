@@ -52,7 +52,7 @@ namespace NetCoreProje.Controllers
             //ViewBag.Cookie = GetCookie("kisi");
             //ViewBag.Session = GetSession("kisi");
             return View(_urunRepository.GetirIdile(id));
-        }
+        }//
 
         public IActionResult GirisYap()
         {
